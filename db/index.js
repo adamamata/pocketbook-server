@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //MONGO_URI
-const MONGO_URI = process.env.MONGODB_URI || 'mongodb://locoalhost/pocketbook';
+const MONGO_URI = process.env.MONGODB_URI || 'mongodb://localhost/pocketbook';
 
 //Connecting to database
 mongoose
